@@ -1,0 +1,39 @@
+.contenedor
+{   height: 300px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display:inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 100px;
+    background-color: white;
+  
+
+}
+.item
+{
+  width: 100px;
+	height: 100px;
+	font-size: 30px;
+	margin-bottom: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	
+}
+#uno
+{
+	background-color: red;
+
+}
+#dos
+{
+	background-color: blue ;
+  
+}
+#tres
+{
+	background-color: green;
+}
